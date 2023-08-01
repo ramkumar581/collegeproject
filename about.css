@@ -1,0 +1,44 @@
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+.about-section {
+	min-height: 80vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+h1,
+h2,
+h3 {
+  color: #333;
+}
+
+.intro p {
+  margin-bottom: 40px;
+}
+
+.mission-vision {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.mission-vision div {
+  flex-basis: 50%;
+}
+
+.values ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}

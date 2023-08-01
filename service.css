@@ -1,0 +1,29 @@
+.service-list-container {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	justify-content: center;
+	align-items: center;
+}
+.service-detail-card {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	gap: 1rem;
+	width: 70%;
+}
+.service-description {
+	margin-top: 1rem;
+	font-weight: 300;
+}
+
+.service-img {
+	object-fit: cover;
+	object-position: center;
+	width: 300px;
+	border-radius: 1rem;
+}
+
+.service-heading-text {
+	margin-block: 0.7rem;
+}

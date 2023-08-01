@@ -1,0 +1,44 @@
+main {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+h1,
+h2,
+h3 {
+  color: #333;
+}
+
+.portfolio {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.project {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.project:hover {
+  transform: translateY(-2px);
+}
+
+.project img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.project-details h2 {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.project-details p {
+  margin-top: 10px;
+  font-size: 14px;
+}
